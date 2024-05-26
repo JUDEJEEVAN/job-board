@@ -10,9 +10,9 @@
 
   <x-card>
     <h2 class="mb-4 text-lg font-medium">
-      Your Job Application
+      Your Job Application jude jeevan loosu eruma
     </h2>
-
+<p>saniyan madu jeevan </p>
     <form action="{{ route('job.application.store', $job) }}" method="POST"
       enctype="multipart/form-data">
       @csrf
