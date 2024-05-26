@@ -13,13 +13,7 @@
         </h2>
         <h1>Welcome by jude</h1>
         <p>saniyan madu jeevan </p>
-        <table>
-            <tr>
-                <td>welcome</td>
-                <td>new</td>
-                <td>table</td>
-            </tr>
-        </table>
+        <h2>Welcome to great karikalan magic show</h2>
         <form action="{{ route('job.application.store', $job) }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="mb-4">
